@@ -1,0 +1,16 @@
+package com.acute.aware.gfx;
+
+public class Screen extends Render {
+
+	private Render test;
+
+	public Screen(int WIDTH, int HEIGHT) {
+		super(WIDTH, HEIGHT);
+
+	}
+
+	public void Render() {
+		draw(test, 0, 0);
+	}
+
+}
